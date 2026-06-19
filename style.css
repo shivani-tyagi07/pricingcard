@@ -1,0 +1,77 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin:30px;
+}
+
+.pricing-contaier{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    gap:20px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background: white;
+    width: 280px;
+    padding:20px;
+    border-radius: 10px;
+    border:2px solid wheat;
+    text-align: center;
+    box-sizing: border-box;
+    margin:10px;
+}
+
+.card h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    color: darkred;
+    margin:10px;
+}
+
+.desc{
+    font-size: 25px;
+    line-height: 1.5;
+    color: darkgoldenrod;
+}
+.card ul{
+    text-align: left;
+    padding: 0;
+    margin:15px 0;
+}
+
+.card ul li{
+    margin:8px;
+    font-size: 14px;
+}
+
+button{
+    padding:10px;
+    border:none;
+    background-color: darkgoldenrod;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
